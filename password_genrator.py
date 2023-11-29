@@ -4,7 +4,7 @@ import random
 s = []
 pw = ""
 password = []
-op=[0,1]
+op = [0, 1]
 len = int(input("enter the length of the password: "))
 lowle = string.ascii_lowercase
 uple = string.ascii_uppercase
@@ -15,7 +15,7 @@ upp = int(input("do u want upper case letters 0 or 1: "))
 num = int(input("do u want numbers in password 0 or 1: "))
 spch = int(input("do u want special charecters 0 or 1: "))
 
-if(low and upp and num and spch in op):
+if low and upp and num and spch in op:
     if low == 1:
         s.extend(lowle)
     if upp == 1:
