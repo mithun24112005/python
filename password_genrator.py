@@ -1,15 +1,15 @@
 import string
 import random
 
+s = []
+pw = ""
+password = []
+op=[0,1]
 len = int(input("enter the length of the password: "))
 lowle = string.ascii_lowercase
 uple = string.ascii_uppercase
 digits = string.digits
 spchar = string.punctuation
-s = []
-pw = ""
-password = []
-op=[0,1]
 low = int(input("do u want lower case letters 0 or 1: "))
 upp = int(input("do u want upper case letters 0 or 1: "))
 num = int(input("do u want numbers in password 0 or 1: "))
