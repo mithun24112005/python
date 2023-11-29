@@ -15,7 +15,7 @@ upp = int(input("do u want upper case letters 0 or 1: "))
 num = int(input("do u want numbers in password 0 or 1: "))
 spch = int(input("do u want special charecters 0 or 1: "))
 
-if(low or upp or num or spch != 0):
+if(low and upp and num and spch in op):
     if low == 1:
         s.extend(lowle)
     if upp == 1:
