@@ -7,4 +7,4 @@ while True:
         app_icon="D:\python\icon.ico", 
         timeout=10
     )
-    time.sleep(60*60)
+    time.sleep(60*60) # ((time in min)* 60(to convert to sec))
