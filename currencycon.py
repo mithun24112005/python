@@ -1,4 +1,4 @@
-with open ('kaka.txt') as f:
+with open ('currency.txt') as f:
     lines=f.readlines()
 currdict={}
 print(lines)
