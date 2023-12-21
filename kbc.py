@@ -1,4 +1,5 @@
 ques=[["which lang is used to create fb?","python","c++","c","js",4],["which lang is used to create fb?","python","c++","c","js",4],["which lang is used to create fb?","python","c++","c","js",4],["which lang is used to create fb?","python","c++","c","js",4],["which lang is used to create fb?","python","c++","c","js",4],["which lang is used to create fb?","python","c++","c","js",4]]
+# similarliy add n number of questions
 levels=[1000,2000,3000,10000,50000,320000]
 money=0
 for i in range(0,len(ques)):
