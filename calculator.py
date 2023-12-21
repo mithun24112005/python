@@ -47,7 +47,7 @@ while True:
         continue
     b = int(input("enter the value: "))
     if op == "+":
-        a = add(a, b)
+        a = add(a, b)  # keeps the value of c is a for further calculations
     elif op == "-":
         a = sub(a, b)
     elif op == "*":
