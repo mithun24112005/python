@@ -1,1 +1,1 @@
-# this repository contains my projects
+# this repository contains my python projects
