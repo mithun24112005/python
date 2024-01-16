@@ -16,7 +16,7 @@
 
 import random
 
-op = {0, 1}
+op = (0, 1)
 coding = int(input("1 for coding and 0 for decoding: "))
 if coding not in op:
     print("invalid option")
