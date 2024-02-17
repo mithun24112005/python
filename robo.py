@@ -13,9 +13,10 @@ import time
 def speech(text):
     speak=wincom.Dispatch("SAPI.SpVoice")
     speak.speak(text)
-    time.sleep(2)
+    time.sleep(1)
 
-while True:
-    text=input("enter the text u want to say: ")
-    speech(text)
+if __name__=="__main__":
+    while True:
+        text=input("enter the text u want to say: ")
+        speech(text)
 
