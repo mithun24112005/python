@@ -55,3 +55,26 @@ class savings_acc(interest_reward_acc):
             self.get_bal()
         except bal_exp as error:
             print(f"\nwithdraw interrupted: {error}")
+
+
+
+dave=bankacc(1000,"dave")
+sara=bankacc(2000,"sara")
+
+# dave.get_bal()
+# sara.get_bal()
+
+# sara.deposit(5000)
+# dave.withdraw(500)
+
+# sara.transfer(10000,dave)
+
+# jim=interest_reward_acc(1000,"jim")
+# jim.get_bal()
+# jim.deposit(100)
+# jim.transfer(100,dave)
+
+blaze=savings_acc(1000,"blaze")
+blaze.get_bal()
+blaze.deposit(100)
+blaze.transfer(1000,sara)
