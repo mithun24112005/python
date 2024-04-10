@@ -37,6 +37,7 @@ def update_vid(video):
         time=input("enter the time u need: ")
         video[index-1]={"name":name,"time":time}
         save_data_helper(video)
+        print("your list is updated")
     else:
         print("invalid index")
 
@@ -46,6 +47,7 @@ def del_vid(video):
     if 1<=index<=len(video):
         del video[index-1]
         save_data_helper(video)
+        print("your list is updated")
     else:
         print("invalid index")
 
