@@ -183,4 +183,45 @@
 # print(calendar)
 
 ####################################################
+# a function contracting(l) that takes as input a list of integer l and returns True if the absolute difference between each adjacent pair of elements strictly decreases.
+# def contracting(l):
+#     for i in range(len(l)):
+#         if l[i]-l[i+1]==l[i+2]:
+#             return True
+#         else:
+#             return False
+# a=[10,7,4,1]
+# print(contracting(a))
 
+####################################################
+# In a list of integers l, the neighbours of l[i] are l[i-1] and l[i+1]. l[i] is a hill if it is strictly greater than its neighbours and a valley if it is strictly less than its neighbours.
+# Write a function counthv(l) that takes as input a list of integers l and returns a list [hc,vc] where hc is the number of hills in l and vc is the number of valleys in l.
+
+# def counthv(l):
+#     hv=[0,0]
+#     for i in range(1,len(l)-1):
+#         if l[i-1]<l[i] and l[i]>l[i+1]:
+#             hv[0]+=1
+#         elif l[i-1]>l[i] and l[i]<l[i+1]:
+#             hv[1]+=1
+#     return hv
+# print(counthv([3,1,2,3]))
+
+####################################################
+# Write a function leftrotate(m) that takes a list representation m of a square matrix as input, and returns the matrix obtained by rotating the original matrix counterclockwize by 90 degrees. For instance, if we rotate the matrix above, we get
+
+# i=(n-1)-i
+# j=
+
+# l=[[1,2,3], [4,5,6], [7,8,9]]
+# def leftrotate(l):
+#     n = len(l)
+#     ans = [[0 for _ in range(n)] for _ in range(n)]
+#     for i in range(n):
+#         for j in range(n):
+#             # ans[j][(n-1)-i]=l[i][j]  #to rotate CW
+#             ans[j][i] = l[i][(n-1)-j]  #to rotate ACW
+#     return ans
+# print(leftrotate(l))
+
+####################################################
