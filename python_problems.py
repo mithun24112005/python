@@ -225,3 +225,23 @@
 # print(leftrotate(l))
 
 ####################################################
+# Write a Python function frequency(l) that takes as input a list of integers and returns a pair of the form (minfreqlist,maxfreqlist) where
+# def frequency(l):
+#     d=dict()
+#     for i in l:
+#         if i in d:
+#             d[i]+=1
+#         else:
+#             d[i]=1
+#     min_freq=min(d.values())
+#     max_freq=max(d.values())
+#     minfreqlist=[num for num,freq in d.items() if freq==min_freq]
+#     maxfreqlist=[num for num,freq in d.items() if freq==max_freq]
+#     minfreqlist.sort()
+#     maxfreqlist.sort()
+#     return minfreqlist,maxfreqlist
+
+####################################################
+
+
+
